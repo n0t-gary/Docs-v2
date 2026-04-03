@@ -31,6 +31,14 @@ Enums should be accessed from the global `Enums` table. for example:
 Enums.PartMaterial.Brick
 ```
 
+## Renames
+
+Some existing classes from 1.0 has been renamed in 2.0, including:
+
+- Game -> World (`game` keyword has been replaced with `world`)¹
+
+¹`game` keyword will still be accessible by scripts, but won't be suggested in autocompletion
+
 ## Tweening
 
 Tweening has been revamped in 2.0. You should create a tween object first, then tween it from there. Example:
@@ -96,3 +104,7 @@ ds:SetAsync("coins", 11)
 local coins: number = ds:GetAsync("coins")
 print(coins)
 ```
+
+## UIField Rotation
+
+UIField rotation now respect it's parent's rotation chain, instead of always global in 1.0.
