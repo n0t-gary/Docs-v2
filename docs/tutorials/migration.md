@@ -108,3 +108,11 @@ print(coins)
 ## UIField Rotation
 
 UIField rotation now respect it's parent's rotation chain, instead of always global in 1.0.
+
+## NPC & Characters Creation
+
+NPC and Character are now separated, to insert default character. Use `Insert:DefaultNPC()`
+
+```lua
+local npc = Insert:DefaultNPC()
+```
