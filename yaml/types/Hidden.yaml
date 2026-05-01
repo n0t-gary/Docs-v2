@@ -1,6 +1,7 @@
 Name: Hidden
-BaseType: HiddenBase
+Description: Hidden is a object used for hiding instances.
 Category: game
+BaseType: HiddenBase
 Properties: []
 Methods: []
 Events: []
@@ -8,4 +9,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Hidden
-Description: Hidden is a object used for hiding instances.

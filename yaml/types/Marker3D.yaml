@@ -1,6 +1,8 @@
 Name: Marker3D
-BaseType: Dynamic
+Description: Marker3D is a object that allows marking a specific point in world.
+  This will hint an axis gizmo in local test and creator.
 Category: world
+BaseType: Dynamic
 Properties:
   - Name: Length
     Type: number
@@ -29,5 +31,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Marker3D is a object that allows marking a specific point in world.
-  This will hint an axis gizmo in local test and creator.

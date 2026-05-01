@@ -1,6 +1,7 @@
 Name: Light
-BaseType: Dynamic
+Description: Light is an abstract base class for all light objects in the world.
 Category: misc
+BaseType: Dynamic
 Properties:
   - Name: Color
     Type: Color
@@ -36,4 +37,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: Light is an abstract base class for all light objects in the world.

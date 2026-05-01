@@ -1,6 +1,8 @@
 Name: BindableEvent
-BaseType: Instance
+Description: BindableEvent is an event that can be called to communicate between
+  scripts in the same boundary.
 Category: networking
+BaseType: Instance
 Properties: []
 Methods:
   - Name: Invoke
@@ -25,5 +27,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: BindableEvent is an event that can be called to communicate between
-  scripts in the same boundary.

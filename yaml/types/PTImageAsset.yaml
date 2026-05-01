@@ -1,6 +1,7 @@
 Name: PTImageAsset
-BaseType: ImageAsset
+Description: An image asset that's loaded from Polytoria.
 Category: assets
+BaseType: ImageAsset
 Properties:
   - Name: ImageID
     Type: number
@@ -22,4 +23,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: An image asset that's loaded from Polytoria.

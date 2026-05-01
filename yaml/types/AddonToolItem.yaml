@@ -1,6 +1,7 @@
 Name: AddonToolItem
-BaseType: null
+Description: AddonToolItem represents a tool item in the tools menu of the addon.
 Category: addons
+BaseType: null
 Properties: []
 Methods: []
 Events:
@@ -12,4 +13,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: AddonToolItem represents a tool item in the tools menu of the addon.

@@ -1,6 +1,8 @@
 Name: CreatorService
-BaseType: null
+Description: CreatorService is the class that manages the creator. This class is
+  only available in the creator.
 Category: services
+BaseType: null
 Properties:
   - Name: Interface
     Type: CreatorInterface
@@ -37,5 +39,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Creator
-Description: CreatorService is the class that manages the creator. This class is
-  only available in the creator.

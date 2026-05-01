@@ -1,6 +1,8 @@
 Name: Script
-BaseType: Instance
+Description: Scripts are abstract base classes representing Lua code that can be
+  executed in the game.
 Category: scripting
+BaseType: Instance
 Properties:
   - Name: Source
     Type: string
@@ -79,5 +81,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: Scripts are abstract base classes representing Lua code that can be
-  executed in the game.

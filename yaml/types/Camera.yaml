@@ -1,6 +1,7 @@
 Name: Camera
-BaseType: Dynamic
+Description: Camera is a class that represents the local player's camera.
 Category: game
+BaseType: Dynamic
 Properties:
   - Name: Mode
     Type: CameraModeEnum
@@ -166,6 +167,28 @@ Properties:
     IsStatic: false
     Description: The target of Follow mode
 Methods:
+  - Name: IsPositionInView
+    ReturnType: boolean
+    Parameters:
+      - Name: pos
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Check if position is in the camera's view.
+  - Name: IsPositionBehind
+    ReturnType: boolean
+    Parameters:
+      - Name: pos
+        Type: Vector3
+        IsOptional: false
+        DefaultValue: ""
+    IsAsync: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Check if position is behind the camera's view.
   - Name: ViewportPointToRay
     ReturnType: RayResult
     Parameters:
@@ -285,4 +308,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Camera is a class that represents the local player's camera.

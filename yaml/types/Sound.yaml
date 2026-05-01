@@ -1,6 +1,7 @@
 Name: Sound
-BaseType: Dynamic
+Description: Sounds are objects that can be placed in the world and play audio.
 Category: elements
+BaseType: Dynamic
 Properties:
   - Name: Audio
     Type: AudioAsset
@@ -130,4 +131,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Sounds are objects that can be placed in the world and play audio.

@@ -1,6 +1,7 @@
 Name: InstanceValue
-BaseType: ValueBase
+Description: InstanceValue is an object that holds an Instance value.
 Category: values
+BaseType: ValueBase
 Properties:
   - Name: Value
     Type: Instance
@@ -15,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: InstanceValue is an object that holds an Instance value.

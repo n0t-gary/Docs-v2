@@ -1,6 +1,7 @@
 Name: BuiltInFontAsset
-BaseType: FontAsset
+Description: Font asset that's built-in with the client
 Category: assets
+BaseType: FontAsset
 Properties:
   - Name: FontPreset
     Type: BuiltInTextFontPresetEnum
@@ -29,4 +30,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Font asset that's built-in with the client

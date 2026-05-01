@@ -1,6 +1,7 @@
 Name: UIView
-BaseType: UIField
+Description: UIView is a class that displays a rectangle in your place's UI.
 Category: ui
+BaseType: UIField
 Properties:
   - Name: BorderColor
     Type: Color
@@ -36,4 +37,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: UIView is a class that displays a rectangle in your place's UI.

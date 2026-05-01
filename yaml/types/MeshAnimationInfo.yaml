@@ -1,6 +1,7 @@
 Name: MeshAnimationInfo
-BaseType: null
+Description: MeshAnimationInfo contains the animation information for meshes.
 Category: misc
+BaseType: null
 Properties:
   - Name: Name
     Type: string
@@ -29,4 +30,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: MeshAnimationInfo contains the animation information for meshes.

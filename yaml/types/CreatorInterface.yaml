@@ -1,6 +1,8 @@
 Name: CreatorInterface
-BaseType: null
+Description: CreatorInterface represent the user interface of the creator. This
+  class is only available in the creator.
 Category: addons
+BaseType: null
 Properties:
   - Name: ToolMode
     Type: ToolModeEnum
@@ -71,5 +73,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: CreatorInterface represent the user interface of the creator. This
-  class is only available in the creator.

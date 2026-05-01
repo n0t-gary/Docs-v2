@@ -1,6 +1,8 @@
 Name: PTFunction
-BaseType: null
+Description: A function that expects a return value. This will sometimes be
+  referred as `function`
 Category: scripting
+BaseType: null
 Properties: []
 Methods: []
 Events: []
@@ -8,5 +10,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: A function that expects a return value. This will sometimes be
-  referred as `function`

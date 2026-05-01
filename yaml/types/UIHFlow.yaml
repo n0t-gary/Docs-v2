@@ -1,6 +1,8 @@
 Name: UIHFlow
-BaseType: UIFlowLayout
+Description: UIHFlow is a class that aligns all of it's children horizontally
+  and wraps them around at the borders.
 Category: ui
+BaseType: UIFlowLayout
 Properties: []
 Methods: []
 Events: []
@@ -8,4 +10,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: UIHFlow is a class that aligns all of it's children horizontally and wraps them around at the borders.

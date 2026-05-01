@@ -1,6 +1,7 @@
 Name: UIContainer
-BaseType: UIField
+Description: Base class for all UI containers
 Category: ui
+BaseType: UIField
 Properties: []
 Methods: []
 Events: []
@@ -8,4 +9,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: Base class for all UI containers

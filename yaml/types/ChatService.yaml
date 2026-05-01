@@ -1,6 +1,7 @@
 Name: ChatService
-BaseType: Instance
+Description: Chat is a static class used for various actions regarding the chat.
 Category: services
+BaseType: Instance
 Properties:
   - Name: ChatPredicate
     Type: () -> ()
@@ -9,8 +10,8 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: >
-      A callback function that filters chat messages before they are
-      processed by the server, and displayed to other players.
+      A callback function that filters chat messages before they are processed
+      by the server, and displayed to other players.
 
       ```lua
 
@@ -86,4 +87,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Chat
-Description: Chat is a static class used for various actions regarding the chat.

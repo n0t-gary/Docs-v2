@@ -1,6 +1,7 @@
 Name: UIVLayout
-BaseType: UIHVLayout
+Description: UIVLayout is a class that aligns all of its children vertically.
 Category: ui
+BaseType: UIHVLayout
 Properties: []
 Methods: []
 Events: []
@@ -8,4 +9,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: UIVLayout is a class that aligns all of its children vertically.

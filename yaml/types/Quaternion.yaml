@@ -1,6 +1,7 @@
 Name: Quaternion
-BaseType: null
+Description: Represents a quaternion used for rotations.
 Category: types
+BaseType: null
 Properties:
   - Name: X
     Type: number
@@ -69,7 +70,7 @@ Methods:
     IsStatic: true
     Description: Creates a new Quaternion object with the specified components.
   - Name: Angle
-    ReturnType: Quaternion
+    ReturnType: number
     Parameters:
       - Name: a
         Type: Quaternion
@@ -99,7 +100,7 @@ Methods:
     IsStatic: true
     Description: Creates a rotation which rotates angle degrees around axis.
   - Name: Dot
-    ReturnType: Quaternion
+    ReturnType: number
     Parameters:
       - Name: a
         Type: Quaternion
@@ -319,4 +320,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Represents a quaternion used for rotations.

@@ -1,6 +1,7 @@
 Name: Players
-BaseType: Instance
+Description: Players is the container class for all Player instances.
 Category: game
+BaseType: Instance
 Properties:
   - Name: LocalPlayer
     Type: Player
@@ -86,4 +87,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Players
-Description: Players is the container class for all Player instances.

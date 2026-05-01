@@ -1,6 +1,7 @@
 Name: IntValue
-BaseType: ValueBase
+Description: IntValue is an object that holds an integer value.
 Category: values
+BaseType: ValueBase
 Properties:
   - Name: Value
     Type: number
@@ -15,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: IntValue is an object that holds an integer value.

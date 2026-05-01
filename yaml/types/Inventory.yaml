@@ -1,6 +1,7 @@
 Name: Inventory
-BaseType: HiddenBase
+Description: Inventory is a container for Tools, equippable by player.
 Category: game
+BaseType: HiddenBase
 Properties: []
 Methods: []
 Events: []
@@ -8,4 +9,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Inventory is a container for Tools, equippable by player.

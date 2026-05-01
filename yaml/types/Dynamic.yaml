@@ -1,6 +1,8 @@
 Name: Dynamic
-BaseType: Instance
+Description: Dynamic is the base class where all objects with a position,
+  rotation and scale derive from.
 Category: world
+BaseType: Instance
 Properties:
   - Name: Position
     Type: Vector3
@@ -166,5 +168,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Dynamic is the base class where all objects with a position,
-  rotation and scale derive from.

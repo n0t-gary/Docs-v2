@@ -1,6 +1,8 @@
 Name: Particles
-BaseType: Dynamic
+Description: Particles represents a particle system that can be used to create
+  various visual effects.
 Category: effects
+BaseType: Dynamic
 Properties:
   - Name: Playing
     Type: boolean
@@ -16,6 +18,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: The image used for the particles.
+  - Name: TextureFilter
+    Type: TextureFilterEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the texture filter mode.
   - Name: Color
     Type: ColorSeries
     IsAccessibleByScripts: true
@@ -58,6 +67,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines the initial velocity
+  - Name: StartRotation
+    Type: NumberRange
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the starting rotation.
   - Name: Spread
     Type: number
     IsAccessibleByScripts: true
@@ -121,6 +137,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Whether the particles are simulated in world or local space.
+  - Name: Orientation
+    Type: ParticleOrientationEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determines the orientation mode of this particle.
 Methods:
   - Name: Play
     ReturnType: nil
@@ -152,5 +175,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Particles represents a particle system that can be used to create
-  various visual effects.

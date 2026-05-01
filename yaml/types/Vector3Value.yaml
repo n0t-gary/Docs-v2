@@ -1,6 +1,7 @@
 Name: Vector3Value
-BaseType: ValueBase
+Description: Vector3Value is an object that holds a Vector3 value.
 Category: values
+BaseType: ValueBase
 Properties:
   - Name: Value
     Type: Vector3
@@ -15,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Vector3Value is an object that holds a Vector3 value.

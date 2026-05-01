@@ -1,6 +1,7 @@
 Name: StringValue
-BaseType: ValueBase
+Description: StringValue is an object that holds a string value.
 Category: values
+BaseType: ValueBase
 Properties:
   - Name: Value
     Type: string
@@ -15,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: StringValue is an object that holds a string value.

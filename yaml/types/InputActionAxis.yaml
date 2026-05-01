@@ -1,6 +1,7 @@
 Name: InputActionAxis
-BaseType: InputAction
+Description: InputActionAxis is a class that represents input action of axis type.
 Category: input
+BaseType: InputAction
 Properties:
   - Name: Negative
     Type: InputButtonCollection
@@ -29,4 +30,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: InputActionAxis is a class that represents input action of axis type.

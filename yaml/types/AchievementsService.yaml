@@ -1,6 +1,7 @@
 Name: AchievementsService
-BaseType: Instance
+Description: Service for managing achievements
 Category: services
+BaseType: Instance
 Properties:
   - Name: UseAchievementSound
     Type: boolean
@@ -64,4 +65,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Achievements
-Description: Service for managing achievements

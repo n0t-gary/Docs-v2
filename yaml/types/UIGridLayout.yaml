@@ -1,6 +1,7 @@
 Name: UIGridLayout
-BaseType: UIContainer
+Description: UIGridLayout is a class that arranges all of it's children in a grid layout
 Category: ui
+BaseType: UIContainer
 Properties:
   - Name: Spacing
     Type: number
@@ -19,7 +20,6 @@ Properties:
 Methods: []
 Events: []
 IsStatic: false
-IsAbstract: true
-IsInstantiable: false
+IsAbstract: false
+IsInstantiable: true
 StaticAlias: null
-Description: UIGridLayout is a class that arranges all of it's children in a grid layout

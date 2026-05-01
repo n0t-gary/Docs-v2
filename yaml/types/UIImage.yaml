@@ -1,6 +1,7 @@
 Name: UIImage
-BaseType: UIField
+Description: UIImage is a class that can be used to display images.
 Category: ui
+BaseType: UIField
 Properties:
   - Name: Image
     Type: ImageAsset
@@ -23,6 +24,13 @@ Properties:
     IsObsolete: false
     IsStatic: false
     Description: Determines how the image is stretched within the view.
+  - Name: TextureFilter
+    Type: TextureFilterEnum
+    IsAccessibleByScripts: true
+    IsReadOnly: false
+    IsObsolete: false
+    IsStatic: false
+    Description: Determine the image filter mode.
   - Name: Loading
     Type: boolean
     IsAccessibleByScripts: true
@@ -36,4 +44,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: UIImage is a class that can be used to display images.

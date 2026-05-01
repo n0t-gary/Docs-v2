@@ -1,6 +1,7 @@
 Name: AssetsService
-BaseType: Instance
+Description: Service for managing/loading assets
 Category: services
+BaseType: Instance
 Properties: []
 Methods:
   - Name: GetFileLinkByPath
@@ -30,4 +31,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Assets
-Description: Service for managing/loading assets

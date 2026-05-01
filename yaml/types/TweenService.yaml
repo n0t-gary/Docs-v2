@@ -1,6 +1,7 @@
 Name: TweenService
-BaseType: Instance
+Description: TweenService is a service for managing tweens
 Category: services
+BaseType: Instance
 Properties: []
 Methods:
   - Name: NewTween
@@ -18,4 +19,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Tween
-Description: TweenService is a service for managing tweens

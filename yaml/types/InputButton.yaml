@@ -1,6 +1,7 @@
 Name: InputButton
-BaseType: null
+Description: InputButton is a class that represents a button KeyCode
 Category: input
+BaseType: null
 Properties:
   - Name: KeyCode
     Type: KeyCodeEnum
@@ -33,4 +34,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: InputButton is a class that represents a button KeyCode

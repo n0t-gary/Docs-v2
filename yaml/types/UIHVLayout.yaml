@@ -1,6 +1,8 @@
 Name: UIHVLayout
-BaseType: UIContainer
+Description: UIHVLayout is an abstract class that provides horizontal and
+  vertical layout functionality for UI elements.
 Category: ui
+BaseType: UIContainer
 Properties:
   - Name: Spacing
     Type: number
@@ -22,5 +24,3 @@ IsStatic: false
 IsAbstract: true
 IsInstantiable: false
 StaticAlias: null
-Description: UIHVLayout is an abstract class that provides horizontal and
-  vertical layout functionality for UI elements.

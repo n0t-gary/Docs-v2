@@ -1,6 +1,7 @@
 Name: FileLinkAsset
-BaseType: BaseAsset
+Description: Represents a link to a file path in the file system
 Category: assets
+BaseType: BaseAsset
 Properties:
   - Name: LinkedID
     Type: string
@@ -15,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Represents a link to a file path in the file system

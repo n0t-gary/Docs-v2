@@ -1,6 +1,7 @@
 Name: BoolValue
-BaseType: ValueBase
+Description: BoolValue is a ValueBase that stores a boolean.
 Category: values
+BaseType: ValueBase
 Properties:
   - Name: Value
     Type: boolean
@@ -15,4 +16,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: BoolValue is a ValueBase that stores a boolean.

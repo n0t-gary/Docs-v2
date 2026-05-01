@@ -1,6 +1,8 @@
 Name: Accessory
-BaseType: Dynamic
+Description: Accessory represents an attachable object that can be equipped by a
+  CharacterModel.
 Category: world
+BaseType: Dynamic
 Properties:
   - Name: TargetAttachment
     Type: CharacterAttachmentEnum
@@ -15,5 +17,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: true
 StaticAlias: null
-Description: Accessory represents an attachable object that can be equipped by a
-  CharacterModel.

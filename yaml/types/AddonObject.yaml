@@ -1,6 +1,8 @@
 Name: AddonObject
-BaseType: null
+Description: AddonObject represents an addon in the creator. This object serves
+  as the main interface for addon developers to interact with the addon system.
 Category: addons
+BaseType: null
 Properties:
   - Name: Identifier
     Type: string
@@ -56,5 +58,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: AddonObject represents an addon in the creator. This object serves
-  as the main interface for addon developers to interact with the addon system.

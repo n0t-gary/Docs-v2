@@ -1,6 +1,8 @@
 Name: ScriptSharedTable
-BaseType: null
+Description: Shared table of object. This class provides a table which any
+  scripts can modify.
 Category: scripting
+BaseType: null
 Properties: []
 Methods:
   - Name: Clear
@@ -48,5 +50,3 @@ IsStatic: false
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: null
-Description: Shared table of object. This class provides a table which any
-  scripts can modify.

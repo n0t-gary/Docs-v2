@@ -1,6 +1,8 @@
 Name: World
-BaseType: Instance
+Description: World is the root object in the Polytoria instance tree. It is the
+  object from which everything is descended.
 Category: world
+BaseType: Instance
 Properties:
   - Name: IsLocalTest
     Type: boolean
@@ -66,5 +68,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: world
-Description: World is the root object in the Polytoria instance tree. It is the
-  object from which everything is descended.

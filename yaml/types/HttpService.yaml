@@ -1,6 +1,7 @@
 Name: HttpService
-BaseType: Instance
+Description: Http is a service used for HTTP communications and requests.
 Category: services
+BaseType: Instance
 Properties: []
 Methods:
   - Name: RequestAsync
@@ -206,4 +207,3 @@ IsStatic: true
 IsAbstract: false
 IsInstantiable: false
 StaticAlias: Http
-Description: Http is a service used for HTTP communications and requests.
