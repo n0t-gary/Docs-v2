@@ -49,12 +49,29 @@ if (!fs.existsSync(yamlEnumPath)) {
 // Process API Classes
 const yamlFiles = fs.readdirSync(yamlAPIPath).filter(file => file.endsWith('.yaml'));
 
+const inheritedBy = {}
+const classDataMap = {}
+
+// First pass, check for inherited by
 for (const yamlFile of yamlFiles) {
     const yamlPath = path.join(yamlAPIPath, yamlFile)
     const yamlContent = fs.readFileSync(yamlPath, "utf-8")
-
-    const c = yaml.parse(yamlContent);
+    const c = yaml.parse(yamlContent)
     const className = path.basename(yamlFile, '.yaml')
+    classDataMap[className] = c
+
+    if (c.BaseType) {
+        if (!inheritedBy[c.BaseType]) {
+            inheritedBy[c.BaseType] = []
+        }
+        inheritedBy[c.BaseType].push(c.Name || className)
+    }
+}
+
+// Second pass, generate md files
+for (const yamlFile of yamlFiles) {
+    const className = path.basename(yamlFile, '.yaml')
+    const c = classDataMap[className]
 
     let mdPath
     if (c.Category) {
@@ -94,6 +111,13 @@ for (const yamlFile of yamlFiles) {
     if (c.BaseType) {
         appendLine("")
         appendLine(`{{ inherits("${c.BaseType}") }}`)
+    }
+
+    // Inherited by
+    const children = inheritedBy[c.Name || className]
+    if (children && children.length > 0) {
+        appendLine("")
+        appendLine(`{{ inherited_by([${children.map(n => `"${n}"`).join(", ")}]) }}`)
     }
 
     appendLine("")
