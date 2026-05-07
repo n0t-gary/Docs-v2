@@ -19,4 +19,4 @@ If you have an idea for a new feature or an improvement, you can also create an 
 
 ### Contributing to the source
 
-Interested in contributing to the source? Please check out [Software Guides](/software) for guides on how to setup your developer environment. You can also join the [Polytoria Contributors](https://discord.gg/HUgEE9FhSU) Discord Server to ask any questions you may have about contributing to the source or to get feedback on your contributions.
+Interested in contributing to the source? Please check out [Software Guides](/contributing/software/prerequisites) for guides on how to setup your developer environment. You can also join the [Polytoria Contributors](https://discord.gg/HUgEE9FhSU) Discord Server to ask any questions you may have about contributing to the source or to get feedback on your contributions.
